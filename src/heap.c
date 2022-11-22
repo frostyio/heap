@@ -32,6 +32,14 @@ void insertHeap(MinHeap *heap, void *element)
 	// dynamically expand
 	if (heap->size + 1 >= heap->capacity)
 	{
+		heap->capacity *= 2;
+
+		void **newElements = malloc(sizeof *newElements * heap->capacity);
+		for (int i = 0; i < heap->size; i++)
+			newElements[i] = heap->elements[i];
+
+		free(heap->elements);
+		heap->elements = newElements;
 	}
 
 	// structure
