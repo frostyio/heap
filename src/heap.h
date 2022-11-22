@@ -3,7 +3,7 @@
 
 #include <stdlib.h>
 
-#define CAPACITY 50
+#define CAPACITY 50000
 
 #define L(i) (2 * i + 1)
 #define R(i) (2 * i + 2)
