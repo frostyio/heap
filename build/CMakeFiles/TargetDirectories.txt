@@ -1,0 +1,3 @@
+/mnt/programming/c/learning/heap/build/CMakeFiles/heap.dir
+/mnt/programming/c/learning/heap/build/CMakeFiles/edit_cache.dir
+/mnt/programming/c/learning/heap/build/CMakeFiles/rebuild_cache.dir

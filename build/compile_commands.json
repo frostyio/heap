@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/mnt/programming/c/learning/heap/build",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/heap.dir/src/heap.c.o -c /mnt/programming/c/learning/heap/src/heap.c",
+  "file": "/mnt/programming/c/learning/heap/src/heap.c"
+},
+{
+  "directory": "/mnt/programming/c/learning/heap/build",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/heap.dir/src/main.c.o -c /mnt/programming/c/learning/heap/src/main.c",
+  "file": "/mnt/programming/c/learning/heap/src/main.c"
+}
+]
